@@ -28,7 +28,7 @@ class MovieCard extends StatelessWidget {
             posterUrl,
             width: double.infinity,
             height: double.infinity,
-            fit: BoxFit.fill,
+            fit: BoxFit.cover,
           ),
           Container(
             padding: const EdgeInsets.all(8.0),
